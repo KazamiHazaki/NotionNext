@@ -56,10 +56,10 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_URL2: 'https://github.com/KazamiHazaki',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: 'https://blog.abdulazizm.my.id/',
+  HEO_INFO_CARD_TEXT3: 'Learn more',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -121,17 +121,19 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD_TITLE_1: 'Community Channel',
+  HEO_SOCIAL_CARD_TITLE_2: 'Join our community for discussion and sharing',
+  HEO_SOCIAL_CARD_TITLE_3: 'Click to join the community',  
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
 
   // 底部统计面板文案
-  HEO_POST_COUNT_TITLE: '文章数:',
-  HEO_SITE_TIME_TITLE: '建站天数:',
-  HEO_SITE_VISIT_TITLE: '访问量:',
-  HEO_SITE_VISITOR_TITLE: '访客数:',
+  // Footer statistics panel labels
+  HEO_POST_COUNT_TITLE: 'Posts:',
+  HEO_SITE_TIME_TITLE: 'Site Days:',
+  HEO_SITE_VISIT_TITLE: 'Page Views:',
+  HEO_SITE_VISITOR_TITLE: 'Visitors:',
+
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
