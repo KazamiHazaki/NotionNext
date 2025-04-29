@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: 'Welcome to my blog', url: 'https://blog.abdulazizm.my.id/' },
+    { title: 'Want to know about me?', url: 'https://abdulazizm.my.id/' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -17,35 +17,38 @@ const CONFIG = {
   // 博客主体区左右侧组件颠倒位置
   HEO_HERO_BODY_REVERSE: false,
 
-  // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
+  // Hero Section (Top large card on homepage)
+  HEO_HERO_TITLE_1: 'Sharing Programming',
+  HEO_HERO_TITLE_2: 'and Cognitive Thinking',
   HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_4: 'New Version Launched',
+  HEO_HERO_TITLE_5: 'NotionNext 4.0 – Easily Customizable Themes',
   HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
-  // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随便逛逛',
+  
+  // Overlay text in the hero section
+  HEO_HERO_COVER_TITLE: 'Browse Freely',
+  
+  // Three pinned categories shown in the hero section
+  HEO_HERO_CATEGORY_1: { title: 'Must-Read Picks', url: '/tag/必看精选' },
+  HEO_HERO_CATEGORY_2: { title: 'Popular Articles', url: '/tag/热门文章' },
+  HEO_HERO_CATEGORY_3: { title: 'Practical Tutorials', url: '/tag/实用教程' },
+  
+  // Tags for recommended articles on the right side of the hero section, e.g., [Recommended]; max 6 posts.
+  // If left empty '', it will recommend the most recently updated posts.
+  HEO_HERO_RECOMMEND_POST_TAG: 'Recommended',
+  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // Sort recommended posts; if true, sort by last updated time in descending order
+  // HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // Image on the right side of the hero section
 
-  // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
-
-  // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
-  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    'Hello! I am',
+    '🔍 Sharing and Helping Enthusiast',
+    '🤝 Specializing in Interaction and Design',
+    '🏃 Down-to-Earth Action Taker',
+    '🏠 Smart Home Expert',
+    '🤖️ Digital Technology Enthusiast',
+    '🧱 Team Engine and Motivator'
   ],
 
   // 个人资料底部按钮
