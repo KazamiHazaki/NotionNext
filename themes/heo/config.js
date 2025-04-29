@@ -18,37 +18,39 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // Hero Section (Top large card on homepage)
-  HEO_HERO_TITLE_1: 'Sharing Programming',
-  HEO_HERO_TITLE_2: 'and Cognitive Thinking',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: 'New Version Launched',
-  HEO_HERO_TITLE_5: 'NotionNext 4.0 – Easily Customizable Themes',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
-  
+  HEO_HERO_TITLE_1: 'Exploring DevOps and Infrastructure',
+  HEO_HERO_TITLE_2: 'Innovative Solutions and Hands-On Learning',  
+  HEO_HERO_TITLE_3: 'blog.abdulazizm.my.id',
+  HEO_HERO_TITLE_4: 'Kazami Blog',
+  HEO_HERO_TITLE_5: 'Personal Blog for my mind share',
+  HEO_HERO_TITLE_LINK: 'https://blog.abdulazizm.my.id/',
+
   // Overlay text in the hero section
   HEO_HERO_COVER_TITLE: 'Browse Freely',
-  
+
   // Three pinned categories shown in the hero section
-  HEO_HERO_CATEGORY_1: { title: 'Must-Read Picks', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: 'Popular Articles', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: 'Practical Tutorials', url: '/tag/实用教程' },
-  
+  HEO_HERO_CATEGORY_1: { title: 'Must-Read Picks', url: '/tag/must-read' },
+  HEO_HERO_CATEGORY_2: { title: 'Popular Articles', url: '/tag/popular-article' },
+  HEO_HERO_CATEGORY_3: { title: 'Practical Tutorials', url: '/tag/practice-tutorial' },
+
   // Tags for recommended articles on the right side of the hero section, e.g., [Recommended]; max 6 posts.
   // If left empty '', it will recommend the most recently updated posts.
   HEO_HERO_RECOMMEND_POST_TAG: 'Recommended',
-  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // Sort recommended posts; if true, sort by last updated time in descending order
+  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // Sort recommended posts; if true, sort by last updated time in descending order
   // HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // Image on the right side of the hero section
 
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    'Hello! I am',
-    '🔍 Sharing and Helping Enthusiast',
-    '🤝 Specializing in Interaction and Design',
-    '🏃 Down-to-Earth Action Taker',
-    '🏠 Smart Home Expert',
-    '🤖️ Digital Technology Enthusiast',
-    '🧱 Team Engine and Motivator'
+  'Hello! I am',
+  '🔧 DevOps Engineer & Infra Explorer',
+  '🧪 Always Trying New Setups — from Debian on Tablets to LXC/VMs',
+  '☁️ Cloud Practitioner — AWS, GCP, and More',
+  '🛠️ Automation Lover — Docker, Jenkins, Terraform, Ansible',
+  '💻 PC & Handheld Tech Enthusiast',
+  '🧱 VMware Expert — vCenter, ESXi Daily Driver',
+  '📝 Aspiring Blogger Ready to Share My Journey'
+
   ],
 
   // 个人资料底部按钮
